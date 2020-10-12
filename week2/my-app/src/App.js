@@ -1,6 +1,8 @@
+
+
 import React from 'react'
 
-import ColoredBox from "../../../week2/my-app/src/coloredbox"
+import ColoredBox from "./coloredbox"
 
 function App() {
   return (
