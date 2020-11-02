@@ -1,0 +1,21 @@
+* {
+  background-color: orangered;
+}
+
+.box {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.boxList {
+  margin-left: 385px;
+  margin-top: 35px;
+}
+
+#input {
+  background-color: white;
+}
+
+#button {
+  background-color: limegreen;
+}

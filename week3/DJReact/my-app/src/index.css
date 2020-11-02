@@ -1,0 +1,117 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.grid {
+  display: grid;
+  grid-template-columns: (2);
+  grid-template-rows: (2);
+  justify-content: center;
+}
+.box1 {
+  grid-column: 1;
+  grid-row: 1;
+  border: solid black;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.box2 {
+  grid-column: 1;
+  grid-row: 2;
+  border: solid black;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.box3 {
+  grid-column: 2;
+  grid-row: 1;
+  border: solid black;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.box4 {
+  grid-column: 2;
+  grid-row: 2;
+  border: solid black;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.button1 {
+  margin: 5px;
+  border: none;
+  height: 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.button2 {
+  margin: 5px;
+  border: none;
+  height: 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.button3 {
+  margin: 5px;
+  border: none;
+  height: 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.button4 {
+  margin: 5px;
+  border: none;
+  height: 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.button5 {
+  margin: 5px;
+  border: none;
+  height: 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.button6 {
+  margin: 5px;
+  border: none;
+  height: 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.button7 {
+  margin: 5px;
+  border: none;
+  height: 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.button8 {
+  margin: 5px;
+  border: none;
+  height: 60px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
