@@ -1,13 +1,100 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.grid {
+  display: grid;
+  grid-template-rows: 5;
+  grid-template-columns: 2;
+}
+.firstName {
+  grid-row: 1;
+  grid-column: 1;
+  margin: 10px;
+  width: 250px;
+}
+.lastName {
+  grid-row: 1;
+  grid-column: 2;
+  margin: 10px;
+  width: 250px;
+}
+.email {
+  grid-row: 2;
+  grid-column: 1;
+  margin: 10px;
+  width: 250px;
+}
+.placeOfBirth {
+  grid-row: 2;
+  grid-column: 2;
+  margin: 10px;
+  width: 250px;
+}
+.phone {
+  grid-row: 3;
+  grid-column: 1;
+  margin: 10px;
+  width: 250px;
+}
+.favoriteFood {
+  grid-row: 3;
+  grid-column: 2;
+  margin: 10px;
+  width: 250px;
+}
+.general {
+  grid-row: 4;
+  grid-column: 1/3;
+  margin: 10px;
+  height: 100px;
+}
+.btn {
+  grid-row: 5;
+  grid-column: 1/3;
+  width: 100px;
+  border-radius: 2px;
+}
+.badge {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 5;
+  justify-content: center;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+.title {
+  color: white;
+  background-color: grey;
+  width: 556px;
+  grid-row: 1;
+  grid-column: 1/3;
+}
+.firstNameBadge {
+  grid-row: 2;
+  grid-column: 1;
+}
+.placeOfBirthBadge {
+  grid-row: 3;
+  grid-column: 1;
+}
+.phoneBadge {
+  grid-row: 2;
+  grid-column: 2;
+}
+.emailBadge {
+  grid-row: 4;
+  grid-column: 1;
+}
+.favoriteFoodBadge {
+  grid-row: 3;
+  grid-column: 2;
+  margin: 10px;
+}
+.generalBadge {
+  grid-row: 5;
+  grid-column: 1/3;
+  border: 1px solid black;
+  height: 100px;
+  margin: 20px;
 }
