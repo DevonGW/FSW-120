@@ -1,0 +1,36 @@
+body {
+  font-family: 'Kufam', cursive;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+.App {
+  font-family: 'Kufam', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  height: 12vh;
+  font-size: 3em;
+  margin: 0;
+  border-radius: 8px;
+  background-color: white;
+}
+.input {
+  margin-top: 30px;
+  font-size: 2.5em;
+  background-color: white;
+  width: 160px;
+}
+.buttons {
+  background-color: black;
+  font-family: 'Kufam', cursive;
+  font-size: 1.2em;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 40px;
+  margin: 4px;
+}
